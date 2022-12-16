@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    list-style: none;
+
+}
+ul {
+    display: flex;
+  justify-content: center;
+    gap: 50px;
+    background-color: #ddd;
+}
+li{
+    font-size: 22px;
+    padding: 10px;
+
+}
+.active{
+    border-bottom: 5px solid black;
+}
